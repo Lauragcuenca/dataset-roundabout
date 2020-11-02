@@ -4,7 +4,7 @@ This dataset shows information about the parameterization of driving in roundabo
 The data in this study are heterogeneous data with multiple formats and obtained from various sources. 
 This study used data from vehicle sensors, smartphone, roundabout segmentation data, and data obtained from video processing. 
 The final dataset is a dataset that contains information related to 33 routes, 337 roundabouts with a total number of 4308 records. 
-It includes the tags of id_route, id_roundabout, segment, segment_angle, diameter, lanes, speed_vehicle, steering_angle, rain, night, agents_0, agents_1, agents_2, vru_0, vru_1, vru_2, distance_0, distance_1, distance_2, orientation_0, orientation_1, orientation_2, num_imagenes.
+It includes the tags of id_route, id_roundabout, segment, segment_angle, diameter, lanes, speed_vehicle, steering_angle, Crowdedness_left, Crowdedness_center,Crowdedness_right,Vrus_left,Vrus_center, Vrus_right, Distance_left, Distance_center, Distance_right , Orientation_left, Orientation_center, Orientation_right.
 
 id_route	   Int(11)	  Identifier of route;
 id_roundabout	   Int(11)	  Identifier of roundabout;
