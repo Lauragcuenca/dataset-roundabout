@@ -1,8 +1,10 @@
 # dataset-roundabout
-Dataset Routes and Roundabout
-This dataset shows information about the parameterization of driving in roundabouts
+Dataset Routes and Roundabout.
+This dataset shows information about the parameterization of driving in roundabouts.
 The data in this study are heterogeneous data with multiple formats and obtained from various sources. 
-This study used data from vehicle sensors, smartphone, roundabout segmentation data, and data obtained from video processing. 
+This study used data from vehicle sensors, smartphone, roundabout segmentation data, and data obtained from video processing.
+The final dataset is embedded in a single CSV file and it is organized in three levels. Specifically, it is a group of routes, where each route is a collection of roundabouts, and each roundabout is divided in segments defined as points of interest.
+Each segment has several attributes, namely vehicle speed, steering angle, roundabout diameter, number of lines, and data generated from video processing. Concerning video processing the variables are crowdedness, defined as the number of detected objects in each frame, presence of vulnerable users, the distance to the closest vehicle and its dominant orientation. 
 The final dataset is a dataset that contains information related to 33 routes, 337 roundabouts with a total number of 4308 records. 
 It includes the tags of id_route, id_roundabout, segment, segment_angle, diameter, lanes, speed_vehicle, steering_angle, Crowdedness_left, Crowdedness_center,Crowdedness_right,Vrus_left,Vrus_center, Vrus_right, Distance_left, Distance_center, Distance_right , Orientation_left, Orientation_center, Orientation_right.
 
